@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\StdAfx">
+      <UniqueIdentifier>{6da01cfc-b3df-4c7e-9b17-c03ada23dc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WzAG">
+      <UniqueIdentifier>{e6f90292-916e-4e47-aac9-fc90441af0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Configs">
+      <UniqueIdentifier>{1b455cb1-0690-4c1f-8390-686d8343aa57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs\Configs">
+      <UniqueIdentifier>{c37dc2ee-8c95-4355-94aa-cd262bc0e49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs\GameServer">
+      <UniqueIdentifier>{fe0883c9-9d77-4a72-b10d-2bda64bc3e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configs\GameServerCS">
+      <UniqueIdentifier>{52bd5c91-fc92-4ea7-9523-e126ad81ca7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WzAG.cpp">
+      <Filter>Source\WzAG</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Source\StdAfx</Filter>
+    </ClInclude>
+    <ClInclude Include="WzAG.h">
+      <Filter>Source\WzAG</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Prodef.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Configs\Configs\Common.ini">
+      <Filter>Configs\Configs</Filter>
+    </None>
+    <None Include="..\Configs\GameServerCS\GameServerCS.ini">
+      <Filter>Configs\GameServerCS</Filter>
+    </None>
+    <None Include="..\Configs\GameServer\GameServer.ini">
+      <Filter>Configs\GameServer</Filter>
+    </None>
+    <None Include="..\ChangeLog.txt" />
+    <None Include="..\Notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,92 @@
+Items Exc Options :
+	Set:
+		1. Zen +40%
+		2. Deffence Success Rate +10%
+		4. Reflect Damage +5%
+		8. Damage Decrease +4%
+		16. Max Mana +4%
+		32. Max HP +4%
+	Weapon:
+		1. Increase 1/8 Mana 
+		2. Increase 1/8 HP 
+		4. Speed +7
+		8. Damage +2%
+		16. Damage +Level/20
+		32. Exc Damage Rate +10%
+
+Character classes :
+gObj->	Class	DbClass	ChaneUp	ChangeUp2	[Short Name]	[Full Name]
+	0	0	0	0		DW		Dark	Wizard
+	0	1	1	0		SM		Soul	Master
+	0	3	1	1		GM		Grand	Master
+
+	1	16	0	0		DK		Dark	Knight
+	1	17	1	0		BK		Blade	Knight
+	1	19	1	1		BM		Blade	Master
+
+	2	32	0	0		FE		Fairy	Elf
+	2	33	1	0		ME		Muse	Elf
+	2	35	1	1		HE		High	Elf
+
+	3	48	0	0		MG		Magic	Gladiator
+	3	50	0	1		DM		Duel	Master
+
+	4	64	0	0		DL		Dark	Lord
+	4	66	0	1		LE		Lord	Emperor
+
+	5	80	0	0		SU		Summoner
+	5	81	1	0		BS		Bloody	Summoner
+	5	83	1	1		DM		Dimension Master
+
+Item Type: 
+	Group * 512 + Index
+
+Item Group:
+	Type / 512
+
+Item Index:
+	Type - 512 * Group
+	Type - 512 * (Type / 512)
+
+gObj->GuildStatus:
+	GuildMaster		128
+	GuildAsistant		64
+	GuildBattleMaster	32
+	GuildMember		0
+
+Number of maps in server:
+	0: "Lorencia"
+	1: "Dungeon"
+	2: "Devais"
+	3: "Noria"
+	4: "Lost Tower"
+	6: "Arena"
+	7: "Atlans"
+	8: "Tarkan"
+	9: "Devil Square"
+	10: "Icarus"
+	11 - 17: "Blood Castle"
+	18 - 23: "Chaos Castle"
+	24 - 29: "Kalima"
+	30: "Valley of Loren"
+	31: "Land of Trial"
+	32: "Devil Square"
+	33: "Aida"
+	34: "Crywolf"
+	36: "Kalima"
+	37: "Kantru1"
+	38: "Kantru2"
+	39: "Kantru3"
+	40: "Silent"
+	41: "Barracks"
+	42: "Refuge"
+	45 - 50: "Illusion Temple"
+	51: "Elbeland"
+	52: "Blood Castle"
+	53: "Chaos Castle"
+	56: "Swamp of Calmness"
+	57: "Raklion"
+	58: "Raklion Boss"
+	62: "Santa Town"
+	63: "Vulcanus"
+	64: "Coliseum"
