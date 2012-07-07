@@ -27,6 +27,9 @@
     <Filter Include="Configs\GameServerCS">
       <UniqueIdentifier>{52bd5c91-fc92-4ea7-9523-e126ad81ca7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Utilits">
+      <UniqueIdentifier>{46fa180b-e031-4004-a68f-44bdd3caa52d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WzAG.cpp">
@@ -34,6 +37,9 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilits.cpp">
+      <Filter>Source\Utilits</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +54,9 @@
     </ClInclude>
     <ClInclude Include="Prodef.h">
       <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilits.h">
+      <Filter>Source\Utilits</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -85,12 +85,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Utilits.cpp" />
     <ClCompile Include="WzAG.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Prodef.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Utilits.h" />
     <ClInclude Include="WzAG.h" />
   </ItemGroup>
   <ItemGroup>

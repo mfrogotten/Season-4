@@ -1,11 +1,3 @@
-// ================================================== //
-// #			GameServer 1.00.90					# //
-// #			Imagination Arts					# //
-// #			Julia Project 1.1.x					# //
-// ================================================== //
-// #	http://imaginationarts.net/forum/			# //
-// #	http://auroraplay.ru/						# //
-// ================================================== //
 
 // for prevent of multiple definitions
 #ifndef STDAFX_H
