@@ -10,6 +10,7 @@ public:
 	void SetRetn(DWORD dwOffset);
 	void SetRRetn(DWORD dwOffset);
 	void SetByte(DWORD dwOffset, BYTE btValue);	 
+	void SetJmp(DWORD dwOffset);
 };
 extern cUtilits Utilits;
 #endif

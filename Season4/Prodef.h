@@ -11,7 +11,15 @@
 		#define ConfigGS				".\\GameServer.ini"		// for WzAG
 		//#define GSSIZE				4452468					// for VirtualProtect (NormalGS)
 		#define GSSIZE					4493410					// for VirtualProtect (Hermex&CrazzyGS)
-	#endif								 
+
+		// for exc shop
+		#define GetToken									0x00402C11
+		#define GetNumber									0x00407379
+		#define ShopExcellentMod_Hook1						0x005633A4
+		#define ShopExcellentMod_Exit1						0x005633AF
+		#define ShopExcellentMod_Hook2						0x005628D5
+		#define ShopExcellentMod_Exit2						0x005628DA
+	#endif
 
 	// GsCs definition offsets
 	#ifdef _GS_CS
