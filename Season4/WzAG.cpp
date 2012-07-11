@@ -254,7 +254,9 @@ WZAG_API int AGRequestData(int NoneUse,int GetType)
 		break;
 	default:
 		filename="Error!" ;
-		::ExitProcess(0);
+		return 0;
+		// TODO: Do some check for needed files in console
+		//::ExitProcess(0);
 		break;
 
 	}

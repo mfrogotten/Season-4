@@ -1,3 +1,4 @@
 [ 0.0.0.0 ] - New project
 [ 0.0.0.1 ] - GameGuard GS fixed
 [ 0.0.0.2 ] - Exc items in shop
+[ 0.0.0.3 ] - Crash WzAG fix
