@@ -14,7 +14,7 @@
 
 	// for some types of variables and other
 	#include <Windows.h>
-	//#include <WinDef.h>
+	#include <stdio.h>
 
 	// for versions
 	#include "Resource.h"

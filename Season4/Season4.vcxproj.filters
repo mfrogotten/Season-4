@@ -30,6 +30,9 @@
     <Filter Include="Source\Utilits">
       <UniqueIdentifier>{46fa180b-e031-4004-a68f-44bdd3caa52d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Systems">
+      <UniqueIdentifier>{30c7530e-05ec-4e62-aba5-0c57b9a38ca3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WzAG.cpp">
@@ -40,6 +43,12 @@
     </ClCompile>
     <ClCompile Include="Utilits.cpp">
       <Filter>Source\Utilits</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Fixes.cpp">
+      <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +66,9 @@
     </ClInclude>
     <ClInclude Include="Utilits.h">
       <Filter>Source\Utilits</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Source\Systems</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

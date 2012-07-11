@@ -1,6 +1,5 @@
 
 #include "StdAfx.h"
-#include "Prodef.h"
 #include "Utilits.h"
 
 // Class of "Utilits"

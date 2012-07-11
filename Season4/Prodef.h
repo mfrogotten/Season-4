@@ -5,6 +5,9 @@
 // for prevent of multiple definitions
 #ifndef PRODEF_H
 #define PRODEF_H
+	
+	// Initialization of fixes
+	void Fixes();
 
 	// Gs definition offsets
 	#ifdef _GS
@@ -24,7 +27,7 @@
 	// GsCs definition offsets
 	#ifdef _GS_CS
 		#define ConfigGS				".\\GameServerCS.ini"	// for WzAG
-		// #define GSSIZE				4685942					// for VirtualProtect (NormalGSCS)
+		//#define GSSIZE				4685942					// for VirtualProtect (NormalGSCS)
 		#define GSSIZE					4751460					// for VirtualProtect (Hermex&CrazzyGSCS)
 	#endif
 

@@ -84,11 +84,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Fixes.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Utilits.cpp" />
     <ClCompile Include="WzAG.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Console.h" />
     <ClInclude Include="Prodef.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="StdAfx.h" />
