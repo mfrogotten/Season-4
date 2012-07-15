@@ -3,3 +3,4 @@
 [ 0.0.0.2 ] - Exc items in shop
 [ 0.0.0.3 ] - Crash WzAG fix
 [ 0.0.0.4 ] - Test commit
+[ 0.0.0.5 ] - AI Init config fix GS

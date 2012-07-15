@@ -66,6 +66,9 @@ void Fixes()
 	// Insert item to shop after reading it
 	Utilits.HookThis((DWORD)&ExcShopAdd, ShopExcellentMod_Hook2);
 	Utilits.SetJmp(ShopExcellentMod_Hook2);
+
+	// AiElement check fix
+	Utilits.SetByte(0x005B7CDC,0xFF);
 #endif
 
 	// GameServerCS fixes
