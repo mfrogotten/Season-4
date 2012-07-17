@@ -84,6 +84,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Configs.cpp" />
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="Fixes.cpp" />
     <ClCompile Include="Main.cpp" />
@@ -91,6 +92,7 @@
     <ClCompile Include="WzAG.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Configs.h" />
     <ClInclude Include="Console.h" />
     <ClInclude Include="Prodef.h" />
     <ClInclude Include="Resource.h" />

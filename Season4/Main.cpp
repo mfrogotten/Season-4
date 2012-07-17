@@ -1,6 +1,7 @@
 
 #include "StdAfx.h"
 #include "Console.h"
+#include "Configs.h"
 
 void MainTick()
 {
@@ -18,11 +19,10 @@ extern "C" __declspec (dllexport) void __cdecl Main()
 	// Makes GS writable
 	if(VirtualProtect(LPVOID(0x401000), GSSIZE, PAGE_EXECUTE_READWRITE, &OldProtect))
 	{	
-		// Do Some Fixes
-		Fixes();
-
-		// Load Sonsole
-		Console.Init();
+		Configs.LoadFixConfigs();	// Take configs for some fixes 		
+		Fixes();					// Do Some Fixes		
+		Configs.Init();				// Load other configs		
+		Console.Init();				// Load Sonsole
 
 		// Run main tick function that ticks every sec
 		DWORD ThreadID;

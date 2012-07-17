@@ -4,3 +4,4 @@
 [ 0.0.0.3 ] - Crash WzAG fix
 [ 0.0.0.4 ] - Test commit
 [ 0.0.0.5 ] - AI Init config fix GS
+[ 0.0.0.6 ] - Configs class and Checksum config

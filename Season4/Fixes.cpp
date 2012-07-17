@@ -1,6 +1,7 @@
 
 #include "StdAfx.h"
 #include "Utilits.h"
+#include "Configs.h"
 
 DWORD Exc;	// for exc option in Shop
 
@@ -69,6 +70,12 @@ void Fixes()
 
 	// AiElement check fix
 	Utilits.SetByte(0x005B7CDC,0xFF);
+
+	// CheckSum
+	if (Configs.Common.CheckSum)
+		Utilits.SetByte(0x0043BA64, 0x74);// je 
+	else
+		Utilits.SetByte(0x0043BA64, 0xEB);// jmp
 #endif
 
 	// GameServerCS fixes

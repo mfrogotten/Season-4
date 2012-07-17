@@ -50,6 +50,9 @@
     <ClCompile Include="Fixes.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="Configs.cpp">
+      <Filter>Source\Systems</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StdAfx.h">
@@ -68,6 +71,9 @@
       <Filter>Source\Utilits</Filter>
     </ClInclude>
     <ClInclude Include="Console.h">
+      <Filter>Source\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Configs.h">
       <Filter>Source\Systems</Filter>
     </ClInclude>
   </ItemGroup>
